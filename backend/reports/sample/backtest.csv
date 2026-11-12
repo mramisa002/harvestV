@@ -1,0 +1,2 @@
+district,crop,season,as_of,division,observed_proxy,recommended_start,recommended_end,offset_days,inside_window,state
+dhaka,wheat,2026-rabi,2026-11-12,Dhaka,2026-11-14,2026-11-12,2026-11-14,1,1,evaluated

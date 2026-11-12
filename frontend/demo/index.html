@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HarvestV API test</title>
+<style>body{font:16px system-ui;background:#f4f6ee;color:#163d2b;max-width:860px;margin:50px auto;padding:24px}main{background:white;border-radius:20px;padding:32px}label{display:inline-flex;flex-direction:column;gap:8px;margin:12px}select,button{font:inherit;padding:12px;border:1px solid #b7caba;border-radius:8px}button{background:#275e3f;color:white;cursor:pointer}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#eff3ec;padding:20px;border-radius:10px}small{color:#52635b}</style>
+<main><small>HARVESTV · BACKEND CONNECTION TEST</small><h1>Explore the advisory API</h1>
+<p>This is a new diagnostic screen. The original Next.js pages and design assets were not supplied.</p>
+<p>Experimental decision support. Historical climate patterns are not a weather forecast.</p>
+<form id="form"><label>District<select id="district" required></select></label><label>Crop<select id="crop" required></select></label><label>Language<select id="lang"><option value="en">English</option><option value="bn">বাংলা</option></select></label><button id="submit">Check conditions</button></form>
+<pre id="result" role="status" aria-live="polite">Loading district and crop lists…</pre>
+<p><a href="/docs">Interactive API documentation</a></p></main>
+<script>
+const result=document.querySelector('#result'), button=document.querySelector('#submit');
+async function request(url){const r=await fetch(url);const data=await r.json();if(!r.ok)throw new Error(JSON.stringify(data.detail??data,null,2));return data;}
+async function init(){try{const [districts,crops]=await Promise.all([request('/api/v1/districts'),request('/api/v1/crops')]);for(const [id,rows] of [['district',districts],['crop',crops]])for(const row of rows){const o=document.createElement('option');o.value=row.id;o.textContent=row.name??row.id;document.getElementById(id).append(o);}result.textContent='Ready. Real advice requires cached NASA data; an empty database returns a clear error.';}catch(e){result.textContent=e.message;button.disabled=true;}}
+document.querySelector('#form').addEventListener('submit',async e=>{e.preventDefault();button.disabled=true;result.textContent='Reading cached data…';try{const p=new URLSearchParams({district:document.querySelector('#district').value,crop:document.querySelector('#crop').value,lang:document.querySelector('#lang').value});result.textContent=JSON.stringify(await request('/api/v1/advisory?'+p),null,2);}catch(e){result.textContent=e.message;}finally{button.disabled=false;}});init();
+</script></html>

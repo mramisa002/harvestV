@@ -1,0 +1,104 @@
+version: 0.1.0-unvalidated
+review: 'TODO: agronomist review; ALL numeric values are starter hypotheses, not field-validated
+  thresholds.'
+weights:
+  soil: 0.3
+  germination: 0.25
+  thermal: 0.2
+  risk: 0.15
+  season: 0.1
+policy:
+  go_score: 70
+  avoid_score: 40
+  min_window_days: 3
+  max_rain_age_days: 7
+  max_smap_age_days: 5
+  minimum_climate_years: 20
+  heavy_48h_mm: 50
+  disagreement_mm: 20
+  better_window_margin: 5
+  close_window_margin: 5
+  dry_day_mm: 1
+  climate_neighbour_days: 3
+  climate_min_coverage: 1.0
+crops:
+  wheat:
+    name_bn: গম
+    thermal:
+    - 5
+    - 15
+    - 25
+    - 35
+    calendar:
+    - 11-01
+    - 12-15
+    soil_band:
+    - 0.3
+    - 0.75
+    waterlogging_limit: 0.95
+    heavy_rain_mm: 50
+    dry_tolerance_days: 10
+    flood_14d_mm: 200
+    expected_rain_7d_mm: 15
+    ndvi_threshold: 0.3
+    ndvi_lag_days: 14
+  mustard:
+    name_bn: সরিষা
+    thermal:
+    - 5
+    - 15
+    - 25
+    - 35
+    calendar:
+    - 10-15
+    - 11-30
+    soil_band:
+    - 0.3
+    - 0.75
+    waterlogging_limit: 0.95
+    heavy_rain_mm: 50
+    dry_tolerance_days: 10
+    flood_14d_mm: 200
+    expected_rain_7d_mm: 15
+    ndvi_threshold: 0.3
+    ndvi_lag_days: 14
+  lentil:
+    name_bn: মসুর
+    thermal:
+    - 5
+    - 15
+    - 25
+    - 35
+    calendar:
+    - 10-15
+    - 12-15
+    soil_band:
+    - 0.3
+    - 0.75
+    waterlogging_limit: 0.95
+    heavy_rain_mm: 50
+    dry_tolerance_days: 10
+    flood_14d_mm: 200
+    expected_rain_7d_mm: 15
+    ndvi_threshold: 0.3
+    ndvi_lag_days: 14
+  potato:
+    name_bn: আলু
+    thermal:
+    - 5
+    - 12
+    - 22
+    - 32
+    calendar:
+    - 11-01
+    - 12-31
+    soil_band:
+    - 0.3
+    - 0.75
+    waterlogging_limit: 0.95
+    heavy_rain_mm: 50
+    dry_tolerance_days: 10
+    flood_14d_mm: 200
+    expected_rain_7d_mm: 15
+    ndvi_threshold: 0.3
+    ndvi_lag_days: 14

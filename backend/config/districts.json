@@ -1,0 +1,578 @@
+[
+  {
+    "id": "bandarban",
+    "name": "Bandarban",
+    "division": "Chattogram",
+    "lat": 22.2,
+    "lon": 92.22,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "brahmanbaria",
+    "name": "Brahmanbaria",
+    "division": "Chattogram",
+    "lat": 23.96,
+    "lon": 91.11,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "chandpur",
+    "name": "Chandpur",
+    "division": "Chattogram",
+    "lat": 23.23,
+    "lon": 90.67,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "chattogram",
+    "name": "Chattogram",
+    "division": "Chattogram",
+    "lat": 22.36,
+    "lon": 91.78,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "cumilla",
+    "name": "Cumilla",
+    "division": "Chattogram",
+    "lat": 23.46,
+    "lon": 91.18,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "coxs-bazar",
+    "name": "Coxs Bazar",
+    "division": "Chattogram",
+    "lat": 21.43,
+    "lon": 92.01,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "feni",
+    "name": "Feni",
+    "division": "Chattogram",
+    "lat": 23.02,
+    "lon": 91.4,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "khagrachhari",
+    "name": "Khagrachhari",
+    "division": "Chattogram",
+    "lat": 23.12,
+    "lon": 91.98,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "lakshmipur",
+    "name": "Lakshmipur",
+    "division": "Chattogram",
+    "lat": 22.94,
+    "lon": 90.83,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "noakhali",
+    "name": "Noakhali",
+    "division": "Chattogram",
+    "lat": 22.87,
+    "lon": 91.1,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "rangamati",
+    "name": "Rangamati",
+    "division": "Chattogram",
+    "lat": 22.65,
+    "lon": 92.18,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "dhaka",
+    "name": "Dhaka",
+    "division": "Dhaka",
+    "lat": 23.81,
+    "lon": 90.41,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "faridpur",
+    "name": "Faridpur",
+    "division": "Dhaka",
+    "lat": 23.61,
+    "lon": 89.84,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "gazipur",
+    "name": "Gazipur",
+    "division": "Dhaka",
+    "lat": 24.0,
+    "lon": 90.42,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "gopalganj",
+    "name": "Gopalganj",
+    "division": "Dhaka",
+    "lat": 23.01,
+    "lon": 89.83,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "kishoreganj",
+    "name": "Kishoreganj",
+    "division": "Dhaka",
+    "lat": 24.44,
+    "lon": 90.78,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "madaripur",
+    "name": "Madaripur",
+    "division": "Dhaka",
+    "lat": 23.16,
+    "lon": 90.2,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "manikganj",
+    "name": "Manikganj",
+    "division": "Dhaka",
+    "lat": 23.86,
+    "lon": 90.0,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "munshiganj",
+    "name": "Munshiganj",
+    "division": "Dhaka",
+    "lat": 23.54,
+    "lon": 90.53,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "narayanganj",
+    "name": "Narayanganj",
+    "division": "Dhaka",
+    "lat": 23.62,
+    "lon": 90.5,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "narsingdi",
+    "name": "Narsingdi",
+    "division": "Dhaka",
+    "lat": 23.92,
+    "lon": 90.72,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "rajbari",
+    "name": "Rajbari",
+    "division": "Dhaka",
+    "lat": 23.76,
+    "lon": 89.64,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "shariatpur",
+    "name": "Shariatpur",
+    "division": "Dhaka",
+    "lat": 23.24,
+    "lon": 90.43,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "tangail",
+    "name": "Tangail",
+    "division": "Dhaka",
+    "lat": 24.25,
+    "lon": 89.92,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "barguna",
+    "name": "Barguna",
+    "division": "Barishal",
+    "lat": 22.16,
+    "lon": 90.13,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "barishal",
+    "name": "Barishal",
+    "division": "Barishal",
+    "lat": 22.7,
+    "lon": 90.35,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "bhola",
+    "name": "Bhola",
+    "division": "Barishal",
+    "lat": 22.69,
+    "lon": 90.65,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "jhalokati",
+    "name": "Jhalokati",
+    "division": "Barishal",
+    "lat": 22.64,
+    "lon": 90.2,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "patuakhali",
+    "name": "Patuakhali",
+    "division": "Barishal",
+    "lat": 22.36,
+    "lon": 90.33,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "pirojpur",
+    "name": "Pirojpur",
+    "division": "Barishal",
+    "lat": 22.58,
+    "lon": 89.97,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "bagerhat",
+    "name": "Bagerhat",
+    "division": "Khulna",
+    "lat": 22.65,
+    "lon": 89.79,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "chuadanga",
+    "name": "Chuadanga",
+    "division": "Khulna",
+    "lat": 23.64,
+    "lon": 88.86,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "jashore",
+    "name": "Jashore",
+    "division": "Khulna",
+    "lat": 23.17,
+    "lon": 89.21,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "jhenaidah",
+    "name": "Jhenaidah",
+    "division": "Khulna",
+    "lat": 23.55,
+    "lon": 89.17,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "khulna",
+    "name": "Khulna",
+    "division": "Khulna",
+    "lat": 22.85,
+    "lon": 89.54,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "kushtia",
+    "name": "Kushtia",
+    "division": "Khulna",
+    "lat": 23.9,
+    "lon": 89.12,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "magura",
+    "name": "Magura",
+    "division": "Khulna",
+    "lat": 23.49,
+    "lon": 89.42,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "meherpur",
+    "name": "Meherpur",
+    "division": "Khulna",
+    "lat": 23.76,
+    "lon": 88.63,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "narail",
+    "name": "Narail",
+    "division": "Khulna",
+    "lat": 23.17,
+    "lon": 89.5,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "satkhira",
+    "name": "Satkhira",
+    "division": "Khulna",
+    "lat": 22.72,
+    "lon": 89.07,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "jamalpur",
+    "name": "Jamalpur",
+    "division": "Mymensingh",
+    "lat": 24.94,
+    "lon": 89.94,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "mymensingh",
+    "name": "Mymensingh",
+    "division": "Mymensingh",
+    "lat": 24.75,
+    "lon": 90.42,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "netrokona",
+    "name": "Netrokona",
+    "division": "Mymensingh",
+    "lat": 24.88,
+    "lon": 90.73,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "sherpur",
+    "name": "Sherpur",
+    "division": "Mymensingh",
+    "lat": 25.02,
+    "lon": 90.02,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "bogura",
+    "name": "Bogura",
+    "division": "Rajshahi",
+    "lat": 24.85,
+    "lon": 89.37,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "joypurhat",
+    "name": "Joypurhat",
+    "division": "Rajshahi",
+    "lat": 25.1,
+    "lon": 89.02,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "naogaon",
+    "name": "Naogaon",
+    "division": "Rajshahi",
+    "lat": 24.81,
+    "lon": 88.93,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "natore",
+    "name": "Natore",
+    "division": "Rajshahi",
+    "lat": 24.42,
+    "lon": 88.99,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "chapai-nawabganj",
+    "name": "Chapai Nawabganj",
+    "division": "Rajshahi",
+    "lat": 24.6,
+    "lon": 88.28,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "pabna",
+    "name": "Pabna",
+    "division": "Rajshahi",
+    "lat": 24.01,
+    "lon": 89.24,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "rajshahi",
+    "name": "Rajshahi",
+    "division": "Rajshahi",
+    "lat": 24.37,
+    "lon": 88.6,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "sirajganj",
+    "name": "Sirajganj",
+    "division": "Rajshahi",
+    "lat": 24.45,
+    "lon": 89.7,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "dinajpur",
+    "name": "Dinajpur",
+    "division": "Rangpur",
+    "lat": 25.63,
+    "lon": 88.64,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "gaibandha",
+    "name": "Gaibandha",
+    "division": "Rangpur",
+    "lat": 25.33,
+    "lon": 89.54,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "kurigram",
+    "name": "Kurigram",
+    "division": "Rangpur",
+    "lat": 25.81,
+    "lon": 89.65,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "lalmonirhat",
+    "name": "Lalmonirhat",
+    "division": "Rangpur",
+    "lat": 25.92,
+    "lon": 89.45,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "nilphamari",
+    "name": "Nilphamari",
+    "division": "Rangpur",
+    "lat": 25.93,
+    "lon": 88.86,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "panchagarh",
+    "name": "Panchagarh",
+    "division": "Rangpur",
+    "lat": 26.34,
+    "lon": 88.55,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "rangpur",
+    "name": "Rangpur",
+    "division": "Rangpur",
+    "lat": 25.75,
+    "lon": 89.25,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "thakurgaon",
+    "name": "Thakurgaon",
+    "division": "Rangpur",
+    "lat": 26.03,
+    "lon": 88.46,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "habiganj",
+    "name": "Habiganj",
+    "division": "Sylhet",
+    "lat": 24.38,
+    "lon": 91.42,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "moulvibazar",
+    "name": "Moulvibazar",
+    "division": "Sylhet",
+    "lat": 24.48,
+    "lon": 91.77,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "sunamganj",
+    "name": "Sunamganj",
+    "division": "Sylhet",
+    "lat": 25.07,
+    "lon": 91.4,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  },
+  {
+    "id": "sylhet",
+    "name": "Sylhet",
+    "division": "Sylhet",
+    "lat": 24.9,
+    "lon": 91.87,
+    "aez": null,
+    "estimate_method": "Approximate town reference point, not district centroid; soil estimates unavailable"
+  }
+]

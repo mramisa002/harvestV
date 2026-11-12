@@ -1,0 +1,1 @@
+{"fixture_type":"synthetic schema example, NOT recorded NASA data","header":{"fill_value":-999},"properties":{"parameter":{"PRECTOTCORR":{"20261101":12,"20261102":-999},"T2M":{"20261101":22,"20261102":23},"T2M_MAX":{"20261101":28,"20261102":29},"T2M_MIN":{"20261101":16,"20261102":17},"RH2M":{"20261101":70,"20261102":72},"ALLSKY_SFC_SW_DWN":{"20261101":15,"20261102":16}}}}
